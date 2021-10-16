@@ -1,0 +1,38 @@
+{
+  "name": "niyi",
+  "version": "1.0.0",
+  "description": "An info about Niyi",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "niyi": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
+    "lint-init": "eslint --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teebarg/niyi.git"
+  },
+  "keywords": [
+    "niyi",
+    "cli"
+  ],
+  "author": "Adeniyi Aderounmu",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/teebarg/niyi/issues"
+  },
+  "homepage": "https://github.com/teebarg/niyi#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
